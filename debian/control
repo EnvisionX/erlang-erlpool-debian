@@ -1,0 +1,21 @@
+Source: erlang-erlpool
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
+Build-Depends: debhelper (>= 8.0.0), erlang-base, rebar,
+ erlang-crypto, erlang-syntax-tools
+Standards-Version: 3.9.3
+Homepage: http://sourceforge.net/projects/erlpool/
+
+Package: erlang-erlpool
+Architecture: all
+Depends: erlang-base
+Description: Erlang Resource Pool
+ Resource pool project is written in Erlang as a tiny library.
+ The goal of the tool is reduce the overhead of creating new
+ resources by reusing of the same resources among multiple
+ processes. Achieving result is better performance and
+ throughput. The resource pool was inspired by Java Apache's
+ commons pool and adopts API and main principals from this
+ project. Database connection is most popular example for
+ pooling resource.

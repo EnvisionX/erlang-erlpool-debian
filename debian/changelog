@@ -1,0 +1,5 @@
+erlang-erlpool (1.0.3) unstable; urgency=low
+
+  * Initial release for Debian.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Fri, 12 Dec 2014 21:44:00 +0200
